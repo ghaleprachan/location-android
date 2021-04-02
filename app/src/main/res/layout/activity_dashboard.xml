@@ -37,6 +37,7 @@
                 android:layout_below="@+id/TF_location"
                 android:layout_alignParentStart="true"
                 android:layout_marginTop="10dp"
+                android:visibility="gone"
                 android:onClick="onClick"
                 android:text="Hospital" />
 
@@ -44,6 +45,7 @@
                 android:id="@+id/B_shopping"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 android:layout_below="@+id/TF_location"
                 android:layout_marginTop="10dp"
                 android:layout_toEndOf="@+id/B_hospitals"
@@ -58,6 +60,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_toEndOf="@+id/B_shopping"
                 android:onClick="onClick"
+                android:visibility="gone"
                 android:text="Supermarket" />
 
 

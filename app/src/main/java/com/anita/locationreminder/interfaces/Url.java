@@ -10,8 +10,8 @@ public class Url {
     public static APIEndPoints getEndPoints(){
         if(retrofit == null){
             retrofit = new Retrofit.Builder()
-                    .baseUrl("http://b014c778e636.ngrok.io/")
-//                    .baseUrl("http://192.168.31.50:4000/")
+                    //.baseUrl("http://b014c778e636.ngrok.io/")
+                    .baseUrl("http://7ba3b18b6512.ngrok.io/")
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
         }

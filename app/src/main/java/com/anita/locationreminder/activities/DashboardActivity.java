@@ -316,7 +316,7 @@ public class DashboardActivity extends AppCompatActivity implements OnMapReadyCa
             case R.id.B_hospitals:
                 map.clear();
                 String hospital = "hospital";
-                String url = getUrl(latitude, longitude, hospital);
+                String url = getUrl(27.2046, 77.4977, hospital);
                 dataTransfer[0] = map;
                 dataTransfer[1] = url;
 
